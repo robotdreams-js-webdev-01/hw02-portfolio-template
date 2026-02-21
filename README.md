@@ -54,15 +54,28 @@ HTML, CSS, JavaScript, TypeScript, Git, Tailwind CSS, React, Node.js – legalá
 
 | Kritérium | Pont |
 |---|---|
-| Semantic HTML struktúra (helyes tagek, struktúra) | 5p |
-| Reszponzív layout (mobile-first, legalább 2 breakpoint) | 8p |
-| Tailwind minőség (utility-k, spacing, colors, typography konzisztensen) | 10p |
-| Tartalom (saját szövegek, skill kártyák, működő linkek) | 7p |
-| Deploy + README (élő link, install/run dokumentálva) | 5p |
+| Hero + About + Skills + Footer TODO-k megvalósítása | 20p |
+| Semantic HTML + belső nav linkek | 5p |
+| Mobil/desktop reszponzivitás | 5p |
+| Deploy URL + rövid README dokumentáció | 5p |
+
+Megjegyzés: az oktatói vizuális ellenőrzés kis súlyú (kb. 10–15%), a pontok nagy része CI-ből jön.
 
 ---
 
 ## Futtatás
+
+### 0. Gyors setup ellenőrzés (első lépés)
+
+```bash
+npm install
+npm run dev
+```
+
+Nyisd meg: `http://localhost:5173`
+Ha látod a `Portfolio template elindult ✅` szöveget, a környezet rendben van.
+
+### 1. Házi fejlesztése
 
 ```bash
 npm install
