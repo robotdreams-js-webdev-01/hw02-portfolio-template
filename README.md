@@ -21,13 +21,13 @@ Készíts egy **reszponzív, egy-oldalas portfólió landing page-t** Tailwind C
 
 ### Kötelező szekciók
 
-| Szekció | HTML tag | Tartalom |
-|---|---|---|
-| Fejléc + navigáció | `<header>` + `<nav>` | Logo, legalább 3 link (#hero, #about, #skills) |
-| Hero | `<section id="hero">` | Neved (`<h1>`), tagline (`<p>`), CTA gomb |
-| About | `<section id="about">` | Rövid bemutatkozás, motiváció |
-| Skills | `<section id="skills">` | Legalább 6 skill kártya, vizuálisan rendezve |
-| Lábléc | `<footer>` | Email cím, GitHub link |
+| Szekció            | HTML tag                | Tartalom                                       |
+| ------------------ | ----------------------- | ---------------------------------------------- |
+| Fejléc + navigáció | `<header>` + `<nav>`    | Logo, legalább 3 link (#hero, #about, #skills) |
+| Hero               | `<section id="hero">`   | Neved (`<h1>`), tagline (`<p>`), CTA gomb      |
+| About              | `<section id="about">`  | Rövid bemutatkozás, motiváció                  |
+| Skills             | `<section id="skills">` | Legalább 6 skill kártya, vizuálisan rendezve   |
+| Lábléc             | `<footer>`              | Email cím, GitHub link                         |
 
 ### Technikai követelmények
 
@@ -50,16 +50,11 @@ HTML, CSS, JavaScript, TypeScript, Git, Tailwind CSS, React, Node.js – legalá
 
 ---
 
-## Pontozás (35 pont)
+## Pontozás
 
-| Kritérium | Pont |
-|---|---|
-| Hero + About + Skills + Footer TODO-k megvalósítása | 20p |
-| Semantic HTML + belső nav linkek | 5p |
-| Mobil/desktop reszponzivitás | 5p |
-| Deploy URL + rövid README dokumentáció | 5p |
-
-Megjegyzés: az oktatói vizuális ellenőrzés kis súlyú (kb. 10–15%), a pontok nagy része CI-ből jön.
+- **Automatikus pont (CI tesztek):** max 22 p
+- **Manuális pont (dizájn, deploy, reszponzivitás – az oktató adja):** max 13 p
+- **Összesen:** 35 pont
 
 ---
 
