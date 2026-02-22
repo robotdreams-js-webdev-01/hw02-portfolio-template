@@ -1,0 +1,54 @@
+{
+  "src/index.html fájl létrehozva": {
+    "lesson": 7,
+    "tip": "Hozd létre a src/index.html fájlt"
+  },
+  "tailwind.config.js konfig fájl megtalálható": {
+    "lesson": 7,
+    "tip": "Futtasd: npx tailwindcss init"
+  },
+  "A HTML fájl semantic header elemet tartalmaz": {
+    "lesson": 7,
+    "tip": "Használj <header> taget div helyett – 7. óra, Semantic HTML rész"
+  },
+  "A HTML fájl nav navigációs elemet tartalmaz": {
+    "lesson": 7,
+    "tip": "Tedd a navigációs linkeket <nav> tagbe"
+  },
+  "A HTML fájl main tartalmi elemet tartalmaz": {
+    "lesson": 7,
+    "tip": "A fő tartalom legyen <main> tagen belül"
+  },
+  "A HTML fájl legalább 3 section szekciót tartalmaz": {
+    "lesson": 7,
+    "tip": "Minden szekció (hero, about, skills) legyen külön <section> tagben"
+  },
+  "A HTML fájl footer lábléc elemet tartalmaz": {
+    "lesson": 7,
+    "tip": "Adj hozzá <footer> taget a lap aljára"
+  },
+  "A navigáció belső hivatkozásokat tartalmaz": {
+    "lesson": 7,
+    "tip": "Adj hozzá href='#section-id' formájú linkeket a nav-ba"
+  },
+  "A CSS fájl Tailwind direktívákat tartalmaz": {
+    "lesson": 7,
+    "tip": "A styles.css tetejére: @tailwind base; @tailwind components; @tailwind utilities;"
+  },
+  "A HTML Tailwind osztályokat használ (flex)": {
+    "lesson": 7,
+    "tip": "Adj flex class-t egy konténer elemre"
+  },
+  "A HTML Tailwind reszponzív prefixeket tartalmaz": {
+    "lesson": 7,
+    "tip": "Használj md: vagy lg: prefixeket – pl. md:flex-row"
+  },
+  "A skills szekció legalább 6 skill elemet tartalmaz": {
+    "lesson": 7,
+    "tip": "Adj hozzá legalább 6 skill kártyát vagy <li> elemet"
+  },
+  "A README tartalmaz deployed URL-t": {
+    "lesson": 7,
+    "tip": "Deploy Vercelen, majd másold be az URL-t a README-be"
+  }
+}
