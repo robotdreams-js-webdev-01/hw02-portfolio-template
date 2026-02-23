@@ -1,54 +1,34 @@
 {
   "src/index.html fájl létrehozva": {
     "lesson": 7,
-    "tip": "Hozd létre a src/index.html fájlt"
+    "tip": "A sablonban már van src/index.html – ne töröld; ha hiányzik, hozd létre."
   },
-  "tailwind.config.js konfig fájl megtalálható": {
+  "Tailwind konfigurációs fájl megtalálható": {
     "lesson": 7,
-    "tip": "Futtasd: npx tailwindcss init"
+    "tip": "Futtasd: npx tailwindcss init (vagy a sablonban már van)."
   },
-  "A HTML fájl semantic header elemet tartalmaz": {
+  "package.json tartalmaz dev és build scriptet": {
     "lesson": 7,
-    "tip": "Használj <header> taget div helyett – 7. óra, Semantic HTML rész"
+    "tip": "A package.json scripts részében legyen dev és build."
   },
-  "A HTML fájl nav navigációs elemet tartalmaz": {
+  "src/styles.css megtalálható": {
     "lesson": 7,
-    "tip": "Tedd a navigációs linkeket <nav> tagbe"
-  },
-  "A HTML fájl main tartalmi elemet tartalmaz": {
-    "lesson": 7,
-    "tip": "A fő tartalom legyen <main> tagen belül"
-  },
-  "A HTML fájl legalább 3 section szekciót tartalmaz": {
-    "lesson": 7,
-    "tip": "Minden szekció (hero, about, skills) legyen külön <section> tagben"
-  },
-  "A HTML fájl footer lábléc elemet tartalmaz": {
-    "lesson": 7,
-    "tip": "Adj hozzá <footer> taget a lap aljára"
+    "tip": "A sablonban már van – ne töröld."
   },
   "A navigáció belső hivatkozásokat tartalmaz": {
     "lesson": 7,
-    "tip": "Adj hozzá href='#section-id' formájú linkeket a nav-ba"
-  },
-  "A CSS fájl Tailwind direktívákat tartalmaz": {
-    "lesson": 7,
-    "tip": "A styles.css tetejére: @tailwind base; @tailwind components; @tailwind utilities;"
-  },
-  "A HTML Tailwind osztályokat használ (flex)": {
-    "lesson": 7,
-    "tip": "Adj flex class-t egy konténer elemre"
-  },
-  "A HTML Tailwind reszponzív prefixeket tartalmaz": {
-    "lesson": 7,
-    "tip": "Használj md: vagy lg: prefixeket – pl. md:flex-row"
+    "tip": "A nav-ban adj href=\"#hero\", href=\"#about\", href=\"#skills\" linkeket."
   },
   "A skills szekció legalább 6 skill elemet tartalmaz": {
     "lesson": 7,
-    "tip": "Adj hozzá legalább 6 skill kártyát vagy <li> elemet"
+    "tip": "Adj legalább 6 kártyát vagy li elemet a skills szekcióban (pl. HTML, CSS, JS, Git, Tailwind, React)."
+  },
+  "A footer kapcsolati információkat tartalmaz": {
+    "lesson": 7,
+    "tip": "A footer-ben legyen email (mailto:) és/vagy GitHub / LinkedIn link."
   },
   "A README tartalmaz deployed URL-t": {
     "lesson": 7,
-    "tip": "Deploy Vercelen, majd másold be az URL-t a README-be"
+    "tip": "Deploy Vercel/Netlify/GitHub Pages után másold be az élő URL-t a README-be."
   }
 }

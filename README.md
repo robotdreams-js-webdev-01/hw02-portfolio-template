@@ -19,15 +19,18 @@
 
 Készíts egy **reszponzív, egy-oldalas portfólió landing page-t** Tailwind CSS-szel!
 
-### Kötelező szekciók
+### Kötelező szekciók és elvárások
 
-| Szekció            | HTML tag                | Tartalom                                       |
-| ------------------ | ----------------------- | ---------------------------------------------- |
-| Fejléc + navigáció | `<header>` + `<nav>`    | Logo, legalább 3 link (#hero, #about, #skills) |
-| Hero               | `<section id="hero">`   | Neved (`<h1>`), tagline (`<p>`), CTA gomb      |
-| About              | `<section id="about">`  | Rövid bemutatkozás, motiváció                  |
-| Skills             | `<section id="skills">` | Legalább 6 skill kártya, vizuálisan rendezve   |
-| Lábléc             | `<footer>`              | Email cím, GitHub link                         |
+A sablon már tartalmazza a szekcióvázat (header, nav, main, section-ök, footer). **Neked kell megvalósítanod:**
+
+| Elvárás       | Részletek                                                                                                                                  |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Navigáció** | A `<nav>`-ban legyenek **belső hivatkozások** a szekciókra: pl. `href="#hero"`, `href="#about"`, `href="#skills"` (legalább 2 ilyen link). |
+| **Hero**      | Neved `<h1>`-ben, rövid tagline, opcionális CTA gomb.                                                                                      |
+| **About**     | Rövid bemutatkozás, motiváció.                                                                                                             |
+| **Skills**    | **Legalább 6** skill kártya vagy listaelem (pl. HTML, CSS, JS, Git, Tailwind…), vizuálisan rendezve.                                       |
+| **Footer**    | **Kapcsolati adat**: email és/vagy GitHub (vagy LinkedIn) link.                                                                            |
+| **README**    | Az élő (deployolt) oldal **URL-jét** írd bele a README-be.                                                                                 |
 
 ### Technikai követelmények
 
